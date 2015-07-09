@@ -148,7 +148,7 @@ const Panel = Class({
     }
 
     // Setup view
-    let view = domPanel.make();
+    let view = domPanel.make(null, options.enableChrome);
     panels.set(view, this);
     views.set(this, view);
 
