@@ -9,7 +9,8 @@ module.metadata = {
   "stability": "stable",
   "engines": {
     "Firefox": "*",
-    "SeaMonkey": "*"
+    "SeaMonkey": "*",
+    "Thunderbird": "*",
   }
 };
 
